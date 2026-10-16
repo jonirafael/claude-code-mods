@@ -1,0 +1,9 @@
+{
+  "name": "context-brake",
+  "version": "0.1.0",
+  "description": "When the context window crosses your threshold, Claude gets one quiet note to reach a clean stopping point before auto-compaction, and you get a toast. /brake to configure.",
+  "author": { "name": "biqpro SH" },
+  "license": "MIT",
+  "keywords": ["mod", "context", "compaction"],
+  "types": "./types/index.d.ts"
+}

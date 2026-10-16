@@ -1,0 +1,22 @@
+{
+  "name": "claude-code-mods",
+  "owner": {
+    "name": "biqpro SH"
+  },
+  "metadata": {
+    "description": "Context-window mods for Claude Code: an itemised per-turn context receipt and a one-time context brake.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "context-receipt",
+      "source": "./plugins/context-receipt",
+      "description": "Itemised receipt of what each turn added to the context window: which tool results, how many tokens."
+    },
+    {
+      "name": "context-brake",
+      "source": "./plugins/context-brake",
+      "description": "One gentle, one-time nudge to Claude to reach a clean stopping point when the context window crosses your threshold."
+    }
+  ]
+}

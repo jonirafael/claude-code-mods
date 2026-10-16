@@ -1,0 +1,9 @@
+{
+  "name": "context-receipt",
+  "version": "0.1.0",
+  "description": "Itemised receipt of what each turn added to the context window: which tool results, how many tokens. Band above the prompt plus /receipt.",
+  "author": { "name": "biqpro SH" },
+  "license": "MIT",
+  "keywords": ["mod", "context", "tokens"],
+  "types": "./types/index.d.ts"
+}

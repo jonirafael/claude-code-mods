@@ -1,0 +1,10 @@
+{
+  "name": "claude-code-mods",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "validate": "claude plugin validate . && claude plugin validate plugins/context-receipt && claude plugin validate plugins/context-brake",
+    "test": "claude plugin test plugins/context-receipt && claude plugin test plugins/context-brake",
+    "demo": "./scripts/demo-frames.sh > /tmp/frames.txt && python3 scripts/make-demo.py /tmp/frames.txt assets/context-receipt-demo.gif"
+  }
+}
