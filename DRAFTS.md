@@ -1,6 +1,6 @@
 # Drafts (not posted anywhere)
 
-Replace `GITHUB_USER` with the real GitHub account before using any of these. Nothing here has been sent.
+Replace `jonirafael` with the real GitHub account before using any of these. Nothing here has been sent.
 
 ---
 
@@ -8,11 +8,11 @@ Replace `GITHUB_USER` with the real GitHub account before using any of these. No
 
 Per `contributing.md`, a catalogue submission is one line in `data/seeds.txt` (alphabetical, case-insensitive; do not append at the end, do not edit README). Run `npm test` and `npm run lint` before opening. Alternatively, adding the GitHub topic `claude-code-mod` to the repo lets the 3-hourly scan pick it up with no PR at all.
 
-**Title:** Add GITHUB_USER/claude-code-mods to seeds
+**Title:** Add jonirafael/claude-code-mods to seeds
 
 **Body:**
 
-> Adds `GITHUB_USER/claude-code-mods` to `data/seeds.txt`.
+> Adds `jonirafael/claude-code-mods` to `data/seeds.txt`.
 >
 > The repo is a marketplace with two mods:
 >
@@ -29,7 +29,7 @@ Per `contributing.md`, a catalogue submission is one line in `data/seeds.txt` (a
 
 ## 2. Comment for anthropics/claude-code#90708
 
-> Not a fix for the desktop footer itself, but a stopgap for people who want an at-a-glance signal now: I published two small mods at https://github.com/GITHUB_USER/claude-code-mods.
+> Not a fix for the desktop footer itself, but a stopgap for people who want an at-a-glance signal now: I published two small mods at https://github.com/jonirafael/claude-code-mods.
 >
 > - **context-receipt** shows context % above the prompt (terminal and desktop) *and* which tool results grew it last turn, e.g. `ctx 61% +40k last turn · Read big.log ≈14k`.
 > - **context-brake** addresses the "compaction with no lead-up" part (#91232, #91385): at a threshold you choose it gives Claude a one-time note to finish at a clean boundary and leave a handoff.
@@ -38,7 +38,7 @@ Per `contributing.md`, a catalogue submission is one line in `data/seeds.txt` (a
 
 ## 3. Comment for anthropics/claude-code#91870 (optional, only if on topic)
 
-> Small data point from building on the shipped API: two things worked very well. `prompt.submit` forwarding `{ ...e, context: [...e.context, note] }` gives a clean "tell the model once, don't edit the user's text" primitive, and `claude plugin test` against the real runtime made the adapter tests straightforward. One thing I'd like documented: `$.store.get` resolves to the raw value while `$.state.get` resolves to `{ value }`. That cost me a failing test. Example mods: https://github.com/GITHUB_USER/claude-code-mods
+> Small data point from building on the shipped API: two things worked very well. `prompt.submit` forwarding `{ ...e, context: [...e.context, note] }` gives a clean "tell the model once, don't edit the user's text" primitive, and `claude plugin test` against the real runtime made the adapter tests straightforward. One thing I'd like documented: `$.store.get` resolves to the raw value while `$.state.get` resolves to `{ value }`. That cost me a failing test. Example mods: https://github.com/jonirafael/claude-code-mods
 
 ---
 
@@ -57,17 +57,17 @@ Per `contributing.md`, a catalogue submission is one line in `data/seeds.txt` (a
 > No network, no file access, no extra model calls. Works in terminal and desktop (Claude Code 2.1.287+).
 >
 > ```
-> /plugin marketplace add GITHUB_USER/claude-code-mods
+> /plugin marketplace add jonirafael/claude-code-mods
 > /plugin install context-receipt@claude-code-mods
 > ```
 >
-> Repo + GIF: https://github.com/GITHUB_USER/claude-code-mods. Feedback welcome, especially from desktop users.
+> Repo + GIF: https://github.com/jonirafael/claude-code-mods. Feedback welcome, especially from desktop users.
 
 ## 5. Show HN
 
 **Title:** Show HN: Context receipt and context brake – two Claude Code mods
 
-**URL:** https://github.com/GITHUB_USER/claude-code-mods
+**URL:** https://github.com/jonirafael/claude-code-mods
 
 **Text:**
 

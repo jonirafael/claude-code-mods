@@ -33,7 +33,7 @@ Requires **Claude Code 2.1.287 or later** (mods are on by default).
 From GitHub (after this repo is published):
 
 ```text
-/plugin marketplace add GITHUB_USER/claude-code-mods
+/plugin marketplace add jonirafael/claude-code-mods
 /plugin install context-receipt@claude-code-mods
 /plugin install context-brake@claude-code-mods
 /reload-plugins
